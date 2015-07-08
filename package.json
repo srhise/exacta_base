@@ -1,13 +1,26 @@
 {
-  "name": "Exacta Base Wordpress Theme",
-  "version": "0.1",
-  "description": "A Base Theme Based off Bones",
+  "name": "Exacta-Base-WP-Theme",
+  "version": "0.0.0",
+  "description": "A base theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/srhise/exacta_base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srhise/exacta_base/issues"
+  },
+  "homepage": "https://github.com/srhise/exacta_base",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-connect": "~0.7.1",
     "grunt-contrib-less": "~0.10.0",
     "grunt-contrib-watch": "~0.5.3",
-    "postcss-nesting": "^0.1.0"
+    "grunt-contrib-connect": "~0.7.1"
   }
 }
