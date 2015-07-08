@@ -1,0 +1,1 @@
+put theme images in this folder
