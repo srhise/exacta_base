@@ -31,7 +31,6 @@
 					
 				</div>
 			</div>
-			
 	</div>
 </div><!-- End First Container -->
 <?php get_footer(); ?>

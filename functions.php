@@ -4,7 +4,9 @@ require_once('library/bones.php'); // if you remove this, bones will break
 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
-add_image_size( '300x300', 300, 300, true );
+/* NOTE: Only use thumbnails if you need to, to stop digital waste */
+
+//add_image_size( '300x300', 300, 300, true );
 
 /************* ACTIVE SIDEBARS ********************/
 
