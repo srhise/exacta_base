@@ -1,0 +1,13 @@
+{
+  "name": "Exacta Base Wordpress Theme",
+  "version": "0.1",
+  "description": "A Base Theme Based off Bones",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-contrib-less": "~0.10.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "postcss-nesting": "^0.1.0"
+  }
+}
