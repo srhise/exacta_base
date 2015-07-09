@@ -1,6 +1,6 @@
 <?php
 
-require_once('library/bones.php'); // if you remove this, bones will break
+require_once('bones.php'); // if you remove this, bones will break
 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
