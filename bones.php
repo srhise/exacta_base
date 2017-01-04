@@ -135,7 +135,6 @@ function bones_scripts_and_styles() {
     $template_file = basename((__FILE__).$template);
     // Homepage Scripts
     if ( $template_file == 'home.php' ) {
-        wp_enqueue_script( 'home' );
     } else {
     	wp_enqueue_script( 'classie' );
     	wp_enqueue_script( 'menu' );
