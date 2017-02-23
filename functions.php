@@ -51,3 +51,6 @@ function bones_wpsearch($form) {
     return $form;
 
 } // don't remove this bracket!
+
+//* Add Vue to Project
+require_once( get_stylesheet_directory() . '/vue/bootstrap.php' );
