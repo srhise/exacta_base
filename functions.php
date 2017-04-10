@@ -54,3 +54,9 @@ function bones_wpsearch($form) {
 
 //* Add Vue to Project
 require_once( get_stylesheet_directory() . '/vue/bootstrap.php' );
+
+add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
+
+function theme_enqueue_styles() {
+    wp_enqueue_style('theme-main', get_stylesheet_directory_uri().'/less/style.less');
+}
