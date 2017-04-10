@@ -67,7 +67,7 @@ module.exports = function(grunt) {
           }
         },
         css: {
-          files: ['css/style.css'],  //watched files
+          files: ['css/style.css', 'less/style.less'],  //watched files
           tasks: ['concat'],                          //tasks to run
           options: {
             livereload: true                        //reloads the browser
