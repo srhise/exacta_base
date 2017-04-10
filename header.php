@@ -23,3 +23,4 @@
 
 <body <?php body_class(); ?>>
 <?php do_action( 'crafted_before' ); ?>
+<jw-seach />

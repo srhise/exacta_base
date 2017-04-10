@@ -1,5 +1,6 @@
 <?php
 
+// Set up app div
 add_action('genesis_before', function () {
   do_action( 'crafted_before' );
 });
