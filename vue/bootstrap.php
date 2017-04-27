@@ -1,11 +1,6 @@
 <?php
 
 // Set up app div
-add_action('genesis_before', function () {
-  do_action( 'crafted_before' );
-});
-
-// Set up app div
 add_action('crafted_before', function () {
   echo '<div id="app"> <!-- Close #app -->';
 });
