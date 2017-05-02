@@ -36,7 +36,11 @@ function bones_ahoy() {
     add_action('wp_enqueue_scripts', 'bones_scripts_and_styles', 999);
     // ie conditional wrapper
     add_filter( 'style_loader_tag', 'bones_ie_conditional', 10, 2 );
-
+	
+	
+    function theme_enqueue_styles() {
+        wp_enqueue_style('theme-main', get_stylesheet_directory_uri().'/less/style.less');
+    }	
     // launching this stuff after theme setup
     add_action('after_setup_theme','bones_theme_support');
     // adding sidebars to Wordpress (these are created in functions.php)
